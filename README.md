@@ -4,7 +4,7 @@
 
 `Live.Avalonia` is an experimental project which intends to make the hot reloading feature working in Avalonia-based applications. The core idea of this project was originally proposed by [@Pix2d](https://twitter.com/pix2d) during a discussion in Avalonia Telegram chat. Thanks to [@TirrKatz](https://twitter.com/TirrKatz) for their help in debugging the tooling!
 
-<img src="./Live.Avalonia.gif" width="700" />
+<img src="./Live.Avalonia.gif" width="500" />
 
 In `Live.Avalonia`, we rely on `dotnet watch build` .NET Core facility to rebuild an Avalonia project from sources when any of the source files change. Then, we re-embed the updated controls into a simple Avalonia `Window`. `Live.Avalonia` could possibly save you a lot of time spent clicking 'Build & Run' in your IDE, or typing `dotnet run` in the console. Worth noting, that `Live.Avalonia` doesn't require you to install any particular IDE tooling™ — you can edit files even in [Vim](https://github.com/vim/vim), and the app will hot reload 🔥
 
